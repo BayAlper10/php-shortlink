@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="description" content="Long links made shorter!">
+
+		<title>Short Link</title>
+
+		<link rel="stylesheet"
+			  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="assets/css/styles.min.css">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+		<script src="core.js"></script>
+	</head>
+	<body>
+		<div>
+			<nav class="navbar navbar-light navbar-expand-md bg-primary navigation-clean">
+				<div class="container">
+					<a class="navbar-brand text-nowrap text-dark" href="/">Short Link</a>
+				</div>
+			</nav>
+		</div>
+		<div class="card"></div>
+		<div class="newsletter-subscribe">
+			<div class="container">
+				<div class="intro">
+					<h2 class="text-center">Link kısaltma!</h2>
+					<p class="text-center">Uzun bağlantılarla uğraşmayı sevmiyormusun? Hayır? Bende sevmiyorum :/<br>Bağlantını gir ve büyüleyici bir şekilde kısalt!
+					</p>
+				</div>
+				<p class="text-center" id="response"></p>
+				<form class="form-inline" method="post" action="shorten.php" name="shorten">
+					<div class="form-group">
+						<input class="form-control" type="url" name="url" id="url"
+							   placeholder="Gerçekten uzun bir bağlantı">
+					</div>
+					<div class="form-group">
+						<button class="btn btn-primary" type="submit">Kısalt</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer-basic">
+			<footer>
+				<div class="social">
+					<a href="https://github.com/BayAlper10"><i class="icon ion-social-github"></i></a>
+					<a href="https://youtube.com/BayAlper10"><i class="icon ion-social-youtube"></i></a>
+				</div>
+				<p class="copyright">Alper Dursun © 2019</p>
+			</footer>
+		</div>
+	</body>
+</html>
